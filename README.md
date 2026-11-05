@@ -3,7 +3,9 @@
 
 ##  Introduction et Objectifs du Projet
 
-Ce projet a été réalisé dans le cadre de l'UE **LU3IN002 - Programmation par Objets (L3 Informatique, Sorbonne Université)**. 
+Ce projet a été réalisé dans le cadre de l'UE LU3IN002 - Programmation par Objets (L3 Informatique, Sorbonne Université).
+Démarche de développement :
+Le projet a été développé à partir d'un squelette applicatif partiel (interfaces et structure globale) fourni par l'équipe pédagogique. Mon rôle a été de comprendre l'architecture imposée, puis d'implémenter l'intégralité de la logique métier, du bus d'adressage, des cycles d'instructions du CPU ainsi que l'algorithme d'ordonnancement des alarmes temporelles.
 
 ### Le But
 L'objectif central est de concevoir un **émulateur de système matériel générique et modulaire** entièrement écrit en Java. Plutôt que de coder une machine figée, le projet applique des principes de conception orientés objets rigoureux afin de créer des briques logicielles indépendantes et réutilisables (processeur, bus d'adressage, mémoires, périphériques). Ces composants s'assemblent pour simuler le comportement de vrais circuits électroniques interconnectés.
